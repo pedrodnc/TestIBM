@@ -1,4 +1,4 @@
-CREATE DATABASE test DEFAULT CHARACTER SET UTF8MB4 COLLATE utf8_unicode_ci;
+CREATE DATABASE javabase DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 CREATE USER 'pedro'@'localhost' IDENTIFIED BY 'admin';
 GRANT ALL ON test.* TO 'pedro'@'localhost';
